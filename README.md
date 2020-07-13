@@ -1,6 +1,6 @@
 # Contribution Guide
 
-Please follow the following instructions:
+Please follow these instructions:
 
 
 1. Fork this repository
