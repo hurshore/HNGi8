@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*,
+*::before,
+*::after{
+  box-sizing:border-box;
+  scroll-behavior: smooth;
+}
+
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Lato', sans-serif;
+}
+
+/*content-1*/
+.header{
+  margin:2em 0;
+}
+.header h1{
+  color: #24116A ;
+  font-weight: 900;
+}
+.header p{
+  color: #3F3F3F;
+  font-weight: 300;
+}
+.header .row{
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+input[type="text"]{
+  width:80%;
+  color: #3F3F3F;
+  background-image: url('/assets/images/serach.svg');
+  background-repeat: no-repeat;
+  background-position:95% 7px;
+  padding-right:1.5em;
+}
+/*content-1*/
+
+/*content-2*/
+.questions{
+  margin:2em 0;
+}
+.card{
+  border:none !important;
+  border-bottom: 1px solid #ccc !important;
+}
+.card .card-header .card-link{
+color: #3F3F3F;
+font-weight: bold;
+
+}
+.card-header{
+  background: #FFFFFF !important;
+  border:none !important;
+  margin:1em 0;
+}
+.card-header img{
+  padding:0 1em;
+}
+.card-body{
+  margin:0 0 0 6em;
+}
+/*content-2*/
+
+/*Media Queries*/
+@media only screen and (max-width:765px){
+  .header .row{
+    flex-direction: column;
+    margin:1em 0;
+  }
+  .header{
+    text-align: center;
+  }
+  input[type="text"]{
+  
+    margin:0 auto;
+  }
+  .card-body{
+  
+    margin:0 0 0 3em;
+  }
+}
+@media only screen and (max-width:350px){
+  .card-body{
+  
+    margin:0 0 0 2em;
+  }
+}
+/*Media Queries*/

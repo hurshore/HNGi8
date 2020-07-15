@@ -1,7 +1,11 @@
+footer{
+    overflow: hidden; 
+}
 .footer-div1 {
     padding-top: 5% ;
     background: #24116A;
     transform: skewY(-5deg) translateY(100px);
+    
 }
 .footer-div1 .f-c {
     transform: skewY(5deg);
@@ -24,9 +28,4 @@ footer .f-btn {
     min-height: 25vh;
 }
 
-@media screen and (min-width: 1500px) {
 
-    .footer-div1, .footer-div2 {
-        margin:0 500px;
-    }
-} 
