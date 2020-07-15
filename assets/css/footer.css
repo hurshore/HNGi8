@@ -1,0 +1,32 @@
+.footer-div1 {
+    padding-top: 5% ;
+    background: #24116A;
+    transform: skewY(-5deg) translateY(100px);
+}
+.footer-div1 .f-c {
+    transform: skewY(5deg);
+}
+
+footer button {
+    color: white;
+    background-color: #00AEFF;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+footer .f-btn {
+    background-color: #00AEFF;
+}
+
+.footer-div2 {
+    background: #24116A;
+    min-height: 25vh;
+}
+
+@media screen and (min-width: 1500px) {
+
+    .footer-div1, .footer-div2 {
+        margin:0 500px;
+    }
+} 
