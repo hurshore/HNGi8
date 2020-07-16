@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+footer {
+  overflow: hidden;
+}
+
+/* Section 1 */
+.section-1 {
+  background-color:#164e72;
+  padding: 4rem 0;
+  color: white;
+  text-align: center;
+}
+
+.section-1 .container {
+  max-width: 700px;
+}
+
+/* Section 2 */
+.section-2 {
+  margin-top: 4rem;
+}
+
+.section-2 .card {
+  border-radius: 0.625rem;
+  margin: 0 auto 1rem auto;
+}
+
+.section-2 .card img {
+  border-radius: 0.625rem 0.625rem 0 0;
+}
+
+.section-2 .card-title {
+  color: #00AEFF;
+  font-size: 1rem;
+}
+
+p.track {
+  font-size: 0.85rem;
+  color: rgba(36, 17, 106, 0.9);
+}
+
+p.description {
+  font-size: 0.9rem;
+  color: #767676;
+}
+
+.section-2 .social-links {
+  display: flex;
+}
+
+.social-links .facebook,
+.social-links .twitter,
+.social-links .instagram,
+.social-links .github {
+  background-color: #00AEFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 0.3125rem;
+  margin-right: 0.2rem;
+}
+
+.social-links .twitter {
+  background-color: white;
+  border: 1px solid #00AEFF;
+}
+
+@media screen and (min-width: 500px) {
+  .section-2 .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section-2 .card {
+    flex: 48%;
+    margin: 1rem 1%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .section-2 .card {
+    flex: 23%;
+  }
+}
