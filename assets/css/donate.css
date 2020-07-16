@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    overflow-x: hidden;
+    padding: 0 !important;
+}
+.content{
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-right: 0px !important;
+}
+.left_panel{
+    height: auto;
+    background: rgb(0, 174, 255, 0.2);
+}
+.left_panel img{
+    position: fixed;
+    bottom: 0;
+    margin-left: 120px;
+    height: 83vh;
+    width: 40%;
+    opacity: 1 !important;
+}
+
+.heading{
+    width: 416px;
+    height: 69px;
+    margin-left: 142px;
+    margin-top: 86px;
+
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 143.5%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #24116A;
+}
+.slogan{
+    width: 452px;
+    height: 58px;
+    margin-left: 150px;
+    margin-top: 6px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+
+    color: #333333;
+}
+.form{
+    margin-left: 142px;
+    margin-right: 1rem;
+    height: auto;
+    border: 1px solid #62666E;
+    border-radius: 10px;
+    
+    padding-top: 46px !important;
+    margin-top: 57px;
+    margin-bottom: 134px;
+}
+.form label{
+    display: block;
+    height: 22px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+
+    margin-bottom: 15px;
+    
+    color: #62666E;
+}
+.form input{
+    height: 54px;
+
+    border: 1px solid #62666E;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 36px;
+}
+.form span{
+    color: red;
+}
+.donate_button{
+    display: flex;
+    flex-direction: row;
+    padding: 25px 39px;
+
+    width: 144px;
+    height: 74px;
+
+    background: #24116A;
+    border-radius: 10px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 27px auto -47px;
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-container div {
+  flex: 48%;
+  margin: 1%;
+}
+
+@media only screen and (max-width: 991px){
+    .left_panel img{
+        margin-left: 10px;
+    }
+    .heading{
+        margin-left: 50px;
+    }
+    .slogan{
+        margin-left: 58px;
+    }
+    .form{
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .content{
+        margin-right: 0 !important;
+    }
+    .left_panel img{
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 540px){
+    .form{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .heading{
+        font-size: 38px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .slogan{
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        }
+}

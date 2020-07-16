@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato';
+}
+
+body{
+    padding: 0 !important;
+    background-color: #24116A;
+}
+.content{
+    margin: 109px auto 0px;
+    padding-top: 51px;
+    width: 39%;
+    height: 75%;
+    left: 460px;
+    top: 197px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+input[type="text"] , input[type="password"] { 
+    display: block;
+    height: 64px;
+
+    border: 1px solid #24116A;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: -20px 71px 0;
+    width: fit-content;
+}
+.sign_in{
+    height: 29px;
+    margin-bottom: 31px;
+
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 29px;
+    /* identical to box height, or 81% */
+    z-index: 5;
+
+    color: #000000;
+}
+.tagline{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+
+    text-align: center;
+    color: #000000;
+}
+.tagline a:hover{
+    text-decoration: none;
+}
+.content label{
+    margin-top: 49px;
+    margin-left: 80px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: white;
+    z-index: 10 !important;
+}
+input[type="text"]:focus , input[type="password"]:active{
+    z-index: 0;
+}
+
+
+
+
