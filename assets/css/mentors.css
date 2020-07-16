@@ -7,16 +7,25 @@ html, body {
   overflow-x: hidden;
 }
 
-footer {
-  overflow: hidden;
-}
-
 /* Section 1 */
 .section-1 {
-  background-color:#164e72;
-  padding: 4rem 0;
-  color: white;
+  background-color:#E8F8FF;
+  padding: 5rem 0;
   text-align: center;
+}
+
+.section-1 p.heading {
+  color: #24116A;
+  font-size: 3rem;
+}
+
+.section-1 p.heading span {
+  color: #56ccf2;
+  font-weight: 600;
+}
+
+.section-1 p {
+  color: #5E5E5E;
 }
 
 .section-1 .container {
@@ -84,6 +93,12 @@ p.description {
   .section-2 .card {
     flex: 48%;
     margin: 1rem 1%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section-1 p.heading {
+    font-size: 4rem;
   }
 }
 
