@@ -1,7 +1,7 @@
 header .h-btn {
     border: 1px solid #00AEFF;
     color: #24116A !important;
-    background: linear-gradient(to right,rgba(0, 174, 255, 0.4) 50%, #fff 50%);
+    border-radius: 10px;
 }
 
 header .active {
