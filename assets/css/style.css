@@ -36,7 +36,7 @@ html, body{
 
 /* Section 1 */
 .section-1 {
-  background-color: rgba(51, 42, 106, 1);
+  background-color: #24116A;
   color: white;
   padding: 3rem 0;
   position: relative;
@@ -89,7 +89,7 @@ html, body{
 }
 
 .countdown .card-footer {
-  background-color: #342a6a;
+  background-color: #24116A;
   color: white;
   border-radius: 0 0 0.5rem 0.5rem;
 }
@@ -126,7 +126,7 @@ html, body{
 /* section 4 */
 .section-4 {
   margin-top: 5rem;
-  background: #342a6a;
+  background-color: #24116A;
   color: white;
   padding: 3rem 0 4rem 0;
   position: relative;
@@ -228,7 +228,7 @@ html, body{
 .section-6 {
   margin-top: 3rem;
   padding: 3rem 0;
-  background: linear-gradient(111.69deg, #24116A 13.97%, #1B0F46 94.97%);
+  background-color: #24116A;
   color: white;
   text-align: center;
 }
