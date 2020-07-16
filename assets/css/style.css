@@ -8,35 +8,43 @@ html, body{
   overflow-x: hidden;
 }
 
+/* footer {
+  overflow: hidden;
+} */
+
 /* Button Styles */
-.btn-1, .btn-2 {
-  padding: .75rem 1.7rem;
-  color: white;
-  margin-bottom: .5rem;
+.intro-text button, .section-4 button,
+.section-5 button, .section-6 button,
+.mentors button, .section-8 button,
+.section-9 button {
+  width: 170px;
+  padding: 0.5rem 1rem;
+  display: flex;
+  background: white;
+  border: none;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
 }
 
-.btn-1 {
-  background-color: #00AEFF;
+.intro-text button::before, .section-4 button::before,
+.section-5 button::before, .section-6 button::before,
+.mentors button::before, .section-8 button::before,
+.section-9 button::before, .section-10 button::before {
+  content: '';
+  position: absolute;
+  width: 40%;
+  height: 120%;
+  background-color: rgba(0, 174, 255, 0.4);
+  left: -0.01rem;
+  top: -0.01rem;
 }
 
-.btn-2 {
-  border: 1px solid #00AEFF;
-}
-
-.btn-1:hover {
-  background-color: transparent;
-  border: 1px solid #00AEFF;
-  color: white;
-}
-
-.btn-2:hover {
-  background-color: #00AEFF;
-  color: white
-}
 
 /* Section 1 */
 .section-1 {
-  background-color: rgba(51, 42, 106, 1);
+  background-color: #24116A;
   color: white;
   padding: 3rem 0;
   position: relative;
@@ -68,6 +76,28 @@ html, body{
   line-height: 3.2rem;
 }
 
+.intro-text button {
+  width: 170px;
+  padding: 0.5rem 1rem;
+  display: flex;
+  background: white;
+  border: none;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+}
+
+.intro-text button::before {
+  content: '';
+  position: absolute;
+  width: 40%;
+  height: 120%;
+  background-color: rgba(0, 174, 255, 0.4);
+  left: -0.01rem;
+  top: -0.01rem;
+}
+
 .intro-image img {
   width: 100%;
   background: transparent;
@@ -89,7 +119,7 @@ html, body{
 }
 
 .countdown .card-footer {
-  background-color: #342a6a;
+  background-color: #24116A;
   color: white;
   border-radius: 0 0 0.5rem 0.5rem;
 }
@@ -126,7 +156,7 @@ html, body{
 /* section 4 */
 .section-4 {
   margin-top: 5rem;
-  background: #342a6a;
+  background: #24116A;
   color: white;
   padding: 3rem 0 4rem 0;
   position: relative;
@@ -146,6 +176,28 @@ html, body{
   transform-origin: bottom left;
   transform: skewY(-6deg);
   z-index: -1;
+}
+
+.section-4 button {
+  width: 170px;
+  padding: 0.5rem 1rem;
+  display: flex;
+  background: white;
+  border: none;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+}
+
+.section-4 button::before {
+  content: '';
+  position: absolute;
+  width: 40%;
+  height: 120%;
+  background-color: rgba(0, 174, 255, 0.4);
+  left: -0.01rem;
+  top: -0.01rem;
 }
 
 .section-4 .apply {
@@ -220,15 +272,15 @@ html, body{
   width: 100%;
 }
 
-.section-5 button:hover {
-  color: #00AEFF;
+.section-5 button {
+  border: 1px solid #00AEFF;
 }
 
 /* section 6 */
 .section-6 {
   margin-top: 3rem;
   padding: 3rem 0;
-  background: linear-gradient(111.69deg, #24116A 13.97%, #1B0F46 94.97%);
+  background: #24116A;
   color: white;
   text-align: center;
 }
@@ -309,8 +361,8 @@ p.head {
   width: 100%;
 }
 
-.section-8 button:hover {
-  color: #00AEFF;
+.section-8 button {
+  border: 1px solid #00AEFF;
 }
 
 /* section 9 */
@@ -337,18 +389,27 @@ p.head {
   justify-content: space-between;
 }
 
-.section-9 button:hover {
-  color: #00AEFF;
+.section-9 button {
+  border: 1px solid #00AEFF;
+  margin: 0 auto;
 }
 
 /* section 10 */
 .section-10 {
-  margin-top: 5rem;
+  margin-top: 4rem;
   text-align: center;
 }
 
-.section-10 button:hover {
-  color: #00AEFF;
+.section-10 button {
+  padding: 0.5rem 1rem;
+  display: flex;
+  background: white;
+  border: none;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 1px solid #00AEFF;
 }
 
 .section-10 .image-gallery {
@@ -370,7 +431,7 @@ p.head {
 }
 
 .section-10 .image-gallery div:nth-child(odd) {
-  background-color: #99DFFF;
+  background-color: #00AEFF;
 }
 
 .section-10 .image-gallery div:nth-child(even) {
@@ -458,15 +519,11 @@ p.head {
 
   .section-7 .card-gallery .card {
     flex: 48%;
-    margin: 1rem 1% 0 1%;
+    margin: 1rem 1%;
   }
 
   .section-8 .text-content p {
     font-size: 0.875rem;
-  }
-
-  .section-8 .row {
-    flex-direction: row-reverse;
   }
 
   .section-1 .intro-text, .section-5 .interns,
@@ -518,6 +575,10 @@ p.head {
 
   .section-10 .image-gallery div {
     height: 120px;
+  }
+
+  footer {
+    margin-top: 15rem;
   }
 }
 
