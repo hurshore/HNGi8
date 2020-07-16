@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*,
+*::before,
+*::after{
+  box-sizing:border-box;
+  scroll-behavior: smooth;
+}
+html{
+  
+}
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Lato', sans-serif;
+  
+}
+.content-1{
+  background-color: rgba(230,247,255);
+}
+.content-1 .cont-1-header{
+  padding:4em 0;
+}
+.content-1 .cont-1-header h1{
+  color: #24116A !important;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.content-2{
+  margin:3em 0;
+}
+.content-header span h2{
+  color: #24116A;
+}
+.content .content-text p{
+  color: #24116A;
+}
+.desc h3{
+  color: #24116A;
+}
+.interns .row{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+}
+.interns .row .column{
+  flex:50%;
+}
+.interns .row .content{
+  background-color: rgba(230,247,255);
+  padding:2em;
+}
+
+
+.column .desc{
+  padding:0 2em;
+  
+}
+.content-3,.content-4,.content-5{
+  margin:5em 0;
+}
+.content .quote{
+  margin:0 1em;
+}
+
+@media only screen and (max-width:765px){
+  
+  .content-5 ,.content-4,.content-3,.content-2{
+    width:90%;
+    margin:4em auto;
+  }
+  .content-5 .row{
+    flex-direction: column-reverse;
+  }
+  .content-3 .row{
+    flex-direction: column-reverse;
+  }
+  .content-5 .row .column{
+    flex:100%;
+  }
+  .content-4 .row{
+    flex-direction: column;
+  }
+  .content-2 .row{
+    flex-direction: column;
+  }
+  .content-4 .column{
+    flex:100%;
+  }
+}
+@media only screen and (max-width:1000px){
+  .mobile{
+    width:20px;
+    height:20px;
+  }
+}
+@media only screen and (max-width:500px){
+  .mobile{
+    display:none;
+  }
+}
