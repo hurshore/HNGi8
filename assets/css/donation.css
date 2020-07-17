@@ -3,17 +3,6 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-header {
-  position: absolute;
-  width: 100%;
-  z-index: 1;
-  background-color: transparent;
-  transition: all 0.4s;
-}
-
-.header {
-  background-color: white;
-}
 
 .section-1 img {
   width: 100%;
