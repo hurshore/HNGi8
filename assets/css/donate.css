@@ -162,12 +162,10 @@ body{
     }
     .heading{
         font-size: 38px;
-        margin-right: auto;
-        margin-left: auto;
+        margin-left: 10px;
+        text-align: left;
     }
     .slogan{
-        margin-right: auto;
-        margin-left: auto;
-        text-align: center;
+        margin-left: 10px;
         }
 }
