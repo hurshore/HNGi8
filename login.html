@@ -5,21 +5,83 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" href="../assets/css/login.css">
+  <link rel="stylesheet" href="assets/css/login.css">
+<!--Header CSS -->
+  <link rel="stylesheet" href="assets/css/header.css">
+<!--Footer CSS -->
+  <link rel="stylesheet" href="assets/css/footer.css">
+<!--Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <div class="content">
-    <div class="sign_in">Sign in</div>
-    <div class="tagline">Don't have an account? <a href="join-now.html">Sign up</a> </div>
+  <!-- Header -->
+     <header style="background-color: white;"> 
+        <div class="container" >
+            <nav class="navbar navbar-expand-lg navbar-light navigation">
+                <a class="navbar-brand" href="#"><img src="assets/images/img1.png" alt="logo"></a>
+    
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                    aria-expanded="false" aria-label="Toggle navigation"> <img src="assets/images/Vector.svg" alt=""></button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active ml-md-4" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ml-md-4" href="#about">HNGi 7.0</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ml-md-4" href="#mentors">Mentors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ml-md-4" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ml-md-4" href="#login">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn h-btn ml-md-4 px-4" href="#blog">Join HNGi8</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </nav>
 
-      <label>Email</label>
-      <input type="text" placeholder="Please enter your email address" >
+        </div>
+    </header>
 
-      <label>Password</label>
-      <input type="password" placeholder="Please enter your password">
+    <section id="contact-form">
+        <div class="container-fluid d-flex justify-content-center">
+            <div class="row contact-form">
+                <div>
+                    <h3 class="sign_in text-center p-3">LOG IN AS ADMIN</h3>
+                    <div class="form-group small input-container">
+                        <label>Email</label>
+                        <input id="email" type="email" class="form-control p-3" placeholder="Enter Your Email">
+                    </div>
+                    <div class="form-group small input-container">
+                        <label>Password</label>
+                        <input type="text" class="form-control p-3" placeholder="Enter Your Password">
+                    </div>
+                    <h5> <a href="#">Forgot Password? </a> </h5>
+                    
+                    <div class="form-group text-center">
+                        <button class="btn con-b text-white">LOGIN</button>
+                    </div>
+                    <h6>or login with your social account</h6>
+                    <div class="form-group text-center">
+                        <button class="btn btn-light social"> <img src="assets/images/google.png"> GOOGLE</button>
+                    </div>
+                    <div class="form-group text-center">
+                        <button class="btn-light btn social"><img src="assets/images/facebook.png">FACEBOOK</button>
+                    </div>
 
-  </div>
-  
+                </div>
+            </div>
+        </div>
+    </section>
+    
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

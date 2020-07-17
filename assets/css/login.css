@@ -1,75 +1,145 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Lato';
+body {
+  font-family: 'Open Sans';  margin: 0;
+  padding: 0;
+  background-color: #24116A;
+  overflow-x: hidden;
 }
 
-body{
-    padding: 0 !important;
-    background-color: #24116A;
+#contact-head {
+    background: #E8F8FF;
+    padding: 50px 0;
 }
-.content{
-    margin: 109px auto 0px;
-    padding-top: 51px;
-    width: 39%;
-    height: 75%;
-    left: 460px;
-    top: 197px;
 
+#contact-head .cp-1 {
+  font-size: 64px;
+  color: #24116A;
+}
+#contact-head .cp-2 {
+  color: #5E5E5E;
+}
+
+#contact-head span {
+  color: #00AEFF;
+}
+
+#contact-form .contact-form {
     background: #FFFFFF;
+    box-shadow: 1px 3px 12px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    margin-top: 116px;
+    padding: 51px 71px;
+    width: max-content;
+    margin-bottom: 116px;
 }
-input[type="text"] , input[type="password"] { 
-    display: block;
-    height: 64px;
-
-    border: 1px solid #24116A;
-    box-sizing: border-box;
-    border-radius: 5px;
-    margin: -20px 71px 0;
-    width: fit-content;
+.contact-form h5 a {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 29px;
+  color: #272727;
 }
-.sign_in{
-    height: 29px;
-    margin-bottom: 31px;
+.contact-form h5 a:hover{
+    text-decoration: none;
+    color: #00AEFF;
+}
+.contact-form h6 {
+  height: 29px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 29px;
+  color: #24116A;
+  text-align: center;
+  margin-top: 42px;
+  margin-bottom: 10px;
+}
+#contact-form .con-b{
+    background: #00AEFF;
+    border-radius: 10px;
+    height: 48px;
+    margin-top: 36px;
+    padding: 10px 100px;
+}
 
-    text-align: center;
-    font-family: Lato;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
+.contact-form input, .contact-form textarea {
+  
+  height: 64px;
+  border: 1px solid #24116A;
+}
+.social{
+    height: 48px;
+    border-radius: 30px;
+    background-color: white;
+    color: #24116A;
+    font-size: 14px;
     line-height: 29px;
-    /* identical to box height, or 81% */
-    z-index: 5;
+    font-weight: bold;
+    box-shadow: 1px 3px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 10px 90px;
+}
+.social img{
+    margin-right: 23px;
+}
+.input-container {
+  position: relative;
+  margin-top: 15%;
+}
 
-    color: #000000;
+.contact-form label, .text-area label {
+  position: absolute;
+  top: -18%;
+  left: 3%;
+  background: white;
+  padding: 0 .7rem;
+  color: #24116A;
+  font-size: 14px;
+}
+
+.text-area textarea {
+  resize: none;
+}
+
+.text-area {
+  position: relative;
+  margin-top: 15%;
+}
+
+.text-area label {
+  top: -5%;
+}
+
+.sign_in{
+  height: 29px;
+  margin-bottom: 31px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 29px;
+  color: #000000;
 }
 .tagline{
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 21px;
-    line-height: 29px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 29px;
 
-    text-align: center;
-    color: #000000;
+  color: #000000;
 }
 .tagline a:hover{
-    text-decoration: none;
-}
-.content label{
-    margin-top: 49px;
-    margin-left: 80px;
-    padding-left: 16px;
-    padding-right: 16px;
-    background-color: white;
-    z-index: 10 !important;
-}
-input[type="text"]:focus , input[type="password"]:active{
-    z-index: 0;
+  text-decoration: none;
 }
 
-
-
-
+@media only screen and (max-width: 540px){
+  .social{
+      padding-left:30px !important;
+      padding-right: 30px  !important;
+  }
+  .contact-form{
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+      border-radius: 0px !important;
+  }
+  body{
+      background: none;
+  }
+}
