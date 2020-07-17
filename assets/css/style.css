@@ -105,6 +105,10 @@ html, body{
   text-align: center;
 }
 
+.section-3 p {
+  color: #5E5E5E;
+}
+
 .section-3 .card-header {
   background-color: white;
   border: none;
@@ -131,6 +135,10 @@ html, body{
   padding: 3rem 0 4rem 0;
   position: relative;
   text-align: center;
+}
+
+.section-4 .apply p {
+  color: #CDCDCD;
 }
 
 .section-4::after {
@@ -216,6 +224,10 @@ html, body{
   text-align: center;
 }
 
+.section-5 p {
+  color: #5E5E5E;
+}
+
 .section-5 .interns img {
   width: 100%;
 }
@@ -237,6 +249,10 @@ html, body{
   width: 100%;
 }
 
+.section-6 p {
+  color: #CDCDCD;
+}
+
 /* section 7 */
 .section-7 {
   margin-top: 5rem;
@@ -251,11 +267,19 @@ html, body{
   margin-bottom: 1rem;
 }
 
+.section-7 p {
+  color: #595959;
+}
+
 /* Mentors */
 .mentors .slider-area {
   background-color: #24116A;
   color: white;
   text-align: center;
+}
+
+.mentors p {
+  color: #DEDEDE;
 }
 
 .mentors svg {
@@ -301,6 +325,10 @@ p.head {
   text-align: center;
 }
 
+.section-8 p {
+  color: #5E5E5E;
+}
+
 .section-8 .image {
   display: flex;
 }
@@ -319,6 +347,10 @@ p.head {
   padding: 4rem 0;
   background-color: #084482;
   text-align: center;
+}
+
+.section-9 p {
+  color: #272727;
 }
 
 .section-9 .card-header {
@@ -345,6 +377,10 @@ p.head {
 .section-10 {
   margin-top: 5rem;
   text-align: center;
+}
+
+.section-10 p {
+  color: #5E5E5E;
 }
 
 .section-10 button:hover {
