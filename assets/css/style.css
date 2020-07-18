@@ -66,11 +66,20 @@ html, body{
 
 .intro-text h2 {
   line-height: 3.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.intro-text p {
+  margin-bottom: 3rem;
 }
 
 .intro-image img {
   width: 100%;
   background: transparent;
+}
+
+.buttons .btn-1 {
+  margin-right: 1rem;
 }
 
 /* Countdown */
@@ -101,7 +110,7 @@ html, body{
 
 /* Section 3 */
 .section-3 {
-  margin-top: 5rem;
+  margin-top: 7rem;
   text-align: center;
 }
 
@@ -120,11 +129,13 @@ html, body{
 
 .section-3 .card-gallery .card {
   margin: 1rem 0;
+  padding: 1rem;
 }
 
 .section-3 .card-gallery {
   display: flex;
   flex-direction: column;
+  margin-top: 3rem;
 }
 
 /* section 4 */
@@ -224,8 +235,13 @@ html, body{
   text-align: center;
 }
 
+.section-5 h3 {
+  margin-bottom: 2rem;
+}
+
 .section-5 p {
   color: #5E5E5E;
+  margin-bottom: 2rem;
 }
 
 .section-5 .interns img {
@@ -249,13 +265,22 @@ html, body{
   width: 100%;
 }
 
+.section-6 h3 {
+  margin-bottom: 2rem;
+}
+
 .section-6 p {
   color: #CDCDCD;
+  margin-bottom: 2rem;
 }
 
 /* section 7 */
 .section-7 {
   margin-top: 5rem;
+}
+
+.section-7 h3 {
+  margin-bottom: 3rem;
 }
 
 .section-7 .card-header {
@@ -265,6 +290,7 @@ html, body{
 
 .section-7 .card-gallery .card {
   margin-bottom: 1rem;
+  padding: 1rem;
 }
 
 .section-7 p {
@@ -278,8 +304,16 @@ html, body{
   text-align: center;
 }
 
+.mentors .heading {
+  margin-bottom: 6rem;
+}
+
 .mentors p {
   color: #DEDEDE;
+}
+
+.mentors .btn-2 {
+  margin-top: 5rem;
 }
 
 .mentors svg {
@@ -361,6 +395,7 @@ p.head {
 
 .section-9 .card {
   margin: 1rem 0;
+  padding: 2rem 0 1rem 0;
 }
 
 .section-9 .card-body {
@@ -379,8 +414,13 @@ p.head {
   text-align: center;
 }
 
+.section-10 h3 {
+  margin-bottom: 2rem;
+}
+
 .section-10 p {
   color: #5E5E5E;
+  margin-bottom: 2rem;
 }
 
 .section-10 button:hover {
@@ -431,6 +471,10 @@ p.head {
 
   .section-1 .intro-text button {
     margin: 0;
+  }
+
+  .section-1 .intro-text .btn-1 {
+    margin-right: 1rem;
   }
 
   .countdown .card-footer h4 {
@@ -548,8 +592,8 @@ p.head {
   }
 
   .section-7 .card-gallery .card {
-    flex: 23%;
-    margin: 1rem 1%;
+    flex: 48%;
+    margin: 1%;
   }
 
   .section-10 .image-gallery div {
@@ -560,5 +604,10 @@ p.head {
 @media screen and (min-width: 1200px) {
   .section-4 {
     margin-top: 15rem;
+  }
+
+  .section-7 .card-gallery .card {
+    flex: 23%;
+    margin: 1%;
   }
 }
